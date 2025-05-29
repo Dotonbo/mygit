@@ -1,8 +1,8 @@
-module and2 (a, b, c);
+module or2 (a, b, c);
 
 input a, b;
 output c;
 
-assign c = a + c;
+assign c = a * c;
 
 endmodule
